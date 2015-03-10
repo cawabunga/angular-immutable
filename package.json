@@ -1,6 +1,7 @@
 {
   "name": "angular-immutable",
-  "version": "0.0.1",
+  "repository": "git@github.com:mgechev/angular-immutable.git",
+  "version": "0.0.3",
   "description": "Immutable data structures in AngularJS",
   "main": "./dist/immutable.js",
   "scripts": {
@@ -8,6 +9,9 @@
   },
   "author": "@mgechev",
   "license": "MIT",
+  "dependencies": {
+    "angular": ">=1.1.1"
+  },
   "devDependencies": {
     "gulp": "^3.8.11",
     "gulp-rename": "^1.2.0",
